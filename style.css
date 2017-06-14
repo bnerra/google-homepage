@@ -1,0 +1,157 @@
+div {
+  display: block;
+}
+
+a {
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 9.75pt;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Style the links inside the navigation bar */
+ul {
+	list-style-type: none;
+	padding: 0px;
+	text-decoration: none;
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+	padding-left: 15px;
+}
+
+#topnav a {
+  display:block;
+  position:relative;
+  color: black;
+  float: right;
+  padding: 1px 1px;
+  text-decoration: none;
+  margin-top: -5px;
+}
+
+/* Change style of links on hover*/
+#gmail:hover {
+  text-decoration: underline;
+}
+
+#images:hover {
+  text-decoration: underline;
+}
+
+#grid {
+  width:18px;
+}
+
+#grid:hover {
+  color: #f2f2f2;
+}
+
+#bell {
+  width: 30px;
+}
+
+#avatar {
+  width: 35px;
+}
+
+#outer_container {
+  position: relative;
+  border: none;
+}
+
+
+#main_content{
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  position: relative;
+}
+
+#main_content img {
+  display: block;
+  width: 273px;
+  height: 92px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search_box {
+  display: block;
+  height: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 484px;
+}
+
+#buttons {
+  text-align: center;
+  border-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 400px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  background-image: -moz-linear-gradient(center top, #F5F5F5, #F1F1F1);
+  border:none;
+  color: #757575;
+  font: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 27px;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #F8F8F8;
+  background-image: -moz-linear-gradient(center top , #F8F8F8, #F1F1F1);
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+#left {
+  font: arial;
+  float: left;
+  margin-left: 2px;
+  margin-top: 10px;
+  padding-left: 10px;
+  word-spacing: 1.10em;
+}
+
+#right {
+  float: right;
+  margin-right: 20px;
+  bottom: 0px;
+  margin-top: 10px;
+  word-spacing: 1.1em;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  border-style: none;
+  border-style:outset;
+  bottom: 0px;
+  height: 40px;
+  margin-left: -10px;
+
+  position: fixed;
+  width: 100%;
+
+}
+
+/*Nathan Minchow*/
